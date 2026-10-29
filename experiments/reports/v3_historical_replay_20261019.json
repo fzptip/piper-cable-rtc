@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-19",
+  "scope": "Local offline replay; no network, ROS publishers, GPU inference or physical actuation",
+  "historical_chunks": 292,
+  "publisher_rates_tested_hz": [
+    90,
+    100
+  ],
+  "chunk_rate_replays": 584,
+  "model_rate_hz": 30,
+  "model_horizon_duration_s": 1.6666666666666667,
+  "model_knots_at_90hz_exact": true,
+  "max_joint_difference_vs_independent_numpy_reference": 1.1920928955078125e-07,
+  "gripper_samples_and_timing_exact": true,
+  "exhaustion_hold_checks_passed": true,
+  "historical_boundary_windows": 235,
+  "reserved_endpoints_preserved": true,
+  "full_window_30hz_max_joint_step": {
+    "p50": 0.009734153747558594,
+    "p99": 0.07786494493484492,
+    "maximum": 0.17377358675003052
+  },
+  "full_window_90hz_max_joint_step": {
+    "p50": 0.003244757652282715,
+    "p99": 0.025955021381378156,
+    "maximum": 0.05792456865310669
+  },
+  "local_sampling_cpu_us": {
+    "p50": 21.8,
+    "p99": 92.3,
+    "maximum": 2613.1
+  },
+  "step_metric_caveat": "Step approximately divides by three by construction of resampling; not evidence of lower physical acceleration, model oscillation or improved success rate.",
+  "limitations": [
+    "Recorded outputs reused; no new predictions under updated prefixes",
+    "No hardware publication frequency/load validation",
+    "Linear interpolation has velocity changes at model knots",
+    "First model target remains unchanged and can differ from initial pose"
+  ],
+  "source_sha256": {
+    "pi05_ws_client.py": "76a09feef9b0b39bdb8ce7e63a7fd93405513a5af0d73da1d6d2065e200ab3dd",
+    "rtc_action_queue.py": "8c5fe51c64d0987c0f05fdffe6e10f1e0bf842f11d7e6a1a53e3e49234eb09ba",
+    "action_interpolator.py": "92a071a53700d344ab95b9b387c94877edbcd56d6dffeacbba4b20bf0c57d473",
+    "diagnostic_recorder.py": "f50f400267414c636930c16b2ce097de4ab674f45dae6c2ec88b9e27a531fcab"
+  }
+}

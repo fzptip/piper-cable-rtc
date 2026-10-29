@@ -1,0 +1,54 @@
+# Machine-local configuration and credentials
+configs/*.env
+!configs/*.env.example
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# Checkpoints, raw datasets, telemetry, videos and backups
+checkpoints/
+datasets/
+data/
+diagnostics/
+videos/
+wandb/
+outputs/
+local_backups/
+*.log
+*.jsonl
+*.npz
+*.npy
+*.parquet
+*.mp4
+*.avi
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bundle
+*.zip
+*.tar
+*.tar.gz
+server/openpi/experiments/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

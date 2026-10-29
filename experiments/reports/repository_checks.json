@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-29",
+  "python": "3.10.1",
+  "platform": "win32",
+  "client_mocked_tests": {
+    "run": 67,
+    "passed": 67
+  },
+  "repository_tests": {
+    "run": 5,
+    "passed": 5
+  },
+  "historical_chunk_replays": 584,
+  "historical_boundary_windows": 235,
+  "python_syntax_files": 12,
+  "client_python38_grammar": true,
+  "bash_syntax_files": 5,
+  "shell_line_endings": "LF",
+  "original_repositories_clean": true,
+  "unchanged_client_algorithm_modules": [
+    "rtc_action_queue.py",
+    "action_interpolator.py",
+    "diagnostic_recorder.py"
+  ],
+  "client_main_only_change": "Default video output directory follows __file__",
+  "credential_pattern_scan": {
+    "text_files_checked": 172,
+    "matches": 0,
+    "note": "Heuristic literal scan, not a comprehensive security audit"
+  },
+  "new_documentation_local_links": "passed",
+  "gpu_model_or_ros_started": false,
+  "full_server_runtime_tests": "not run: no Python 3.11/JAX GPU runtime used in this local reorganization",
+  "git_checks": "Independent main branch; original histories not imported; final commit/tag checked separately"
+}

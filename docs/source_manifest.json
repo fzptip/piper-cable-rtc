@@ -1,0 +1,1492 @@
+{
+  "date": "2026-10-29",
+  "repository_version": "0.1.0",
+  "scope": "Current source snapshot only; original Git histories remain outside this repository",
+  "source_commits": {
+    "robot": "0a95d65be64cbac9dfff702ee927ae772c534253",
+    "server": "183f4ba94d54e6c1c674ac0a90b7382a355db628"
+  },
+  "source_branches": {
+    "robot": "rtc/client-v3-interpolation",
+    "server": "rtc/server-prototype"
+  },
+  "original_worktrees_clean": true,
+  "copied_source_files": [
+    {
+      "source": "robot",
+      "path": "action_interpolator.py",
+      "destination": "robot_client/action_interpolator.py",
+      "source_sha256": "92a071a53700d344ab95b9b387c94877edbcd56d6dffeacbba4b20bf0c57d473",
+      "sha256": "92a071a53700d344ab95b9b387c94877edbcd56d6dffeacbba4b20bf0c57d473",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "robot",
+      "path": "diagnostic_recorder.py",
+      "destination": "robot_client/diagnostic_recorder.py",
+      "source_sha256": "f50f400267414c636930c16b2ce097de4ab674f45dae6c2ec88b9e27a531fcab",
+      "sha256": "f50f400267414c636930c16b2ce097de4ab674f45dae6c2ec88b9e27a531fcab",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "robot",
+      "path": "pi05_ws_client.py",
+      "destination": "robot_client/pi05_ws_client.py",
+      "source_sha256": "76a09feef9b0b39bdb8ce7e63a7fd93405513a5af0d73da1d6d2065e200ab3dd",
+      "sha256": "02b856f04174173a75a4b629a4d34bef92328af325a8c45d9664578785e77c58",
+      "changed_during_reorganization": true,
+      "change_kind": "content"
+    },
+    {
+      "source": "robot",
+      "path": "requirements.txt",
+      "destination": "robot_client/requirements.txt",
+      "source_sha256": "819e5cafa88518e9cfe9fa49a3f678e4a79d3b9bf0eb3f217e54bd348deb941b",
+      "sha256": "819e5cafa88518e9cfe9fa49a3f678e4a79d3b9bf0eb3f217e54bd348deb941b",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "robot",
+      "path": "rtc_action_queue.py",
+      "destination": "robot_client/rtc_action_queue.py",
+      "source_sha256": "8c5fe51c64d0987c0f05fdffe6e10f1e0bf842f11d7e6a1a53e3e49234eb09ba",
+      "sha256": "8c5fe51c64d0987c0f05fdffe6e10f1e0bf842f11d7e6a1a53e3e49234eb09ba",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "robot",
+      "path": "test_action_interpolation.py",
+      "destination": "robot_client/test_action_interpolation.py",
+      "source_sha256": "53b0ad23795fcee9096e78577b34a19f074e4abe9fec7e32df0166384ab4e87a",
+      "sha256": "53b0ad23795fcee9096e78577b34a19f074e4abe9fec7e32df0166384ab4e87a",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "robot",
+      "path": "test_diagnostics.py",
+      "destination": "robot_client/test_diagnostics.py",
+      "source_sha256": "2a49adbf5283e5b57aad3a3a129fd0a5559abe39937b2c689f6eec7d510cc129",
+      "sha256": "2a49adbf5283e5b57aad3a3a129fd0a5559abe39937b2c689f6eec7d510cc129",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "robot",
+      "path": "test_rtc_client.py",
+      "destination": "robot_client/test_rtc_client.py",
+      "source_sha256": "d5c3f5b01b442dc6a96b92a35ca82f5496fdbbea9ad72a52de0c336e3dfaade3",
+      "sha256": "d5c3f5b01b442dc6a96b92a35ca82f5496fdbbea9ad72a52de0c336e3dfaade3",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "robot",
+      "path": "test_rtc_v2.py",
+      "destination": "robot_client/test_rtc_v2.py",
+      "source_sha256": "27beb67cf22b195c1fefc31ef15b0217b534f078738bf731c5bc0d9e098f59b0",
+      "sha256": "27beb67cf22b195c1fefc31ef15b0217b534f078738bf731c5bc0d9e098f59b0",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": ".pre-commit-config.yaml",
+      "destination": "server/openpi/.pre-commit-config.yaml",
+      "source_sha256": "a96c2b5f9288b2e6d41a10cdff242c0d2030f7f7c7807d52b9945d4510261f89",
+      "sha256": "5cb58628e068c3a25facd810095cb0e8f80ae7558d0a67ba197c01d9513baec5",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": ".python-version",
+      "destination": "server/openpi/.python-version",
+      "source_sha256": "bb0635f951bfd55419a47fc08a859192049b4d0949cf2d09a4d4d6b2cafafb94",
+      "sha256": "bb0635f951bfd55419a47fc08a859192049b4d0949cf2d09a4d4d6b2cafafb94",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "LICENSE",
+      "destination": "server/openpi/LICENSE",
+      "source_sha256": "5ad8c213095c573921d7388edf93f6a9f54490b8ebf3b165ae8ef1947cf70846",
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "LICENSE_GEMMA.txt",
+      "destination": "server/openpi/LICENSE_GEMMA.txt",
+      "source_sha256": "fbd74722cf3e3817f45e5ee9aa6a1f214a5c59305d2f568d6425e3065b5a53ac",
+      "sha256": "3e2c24001f9ef57bf7ec959a3658fbb49cdad113cdf394c264da9d16f9bdd132",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "README.md",
+      "destination": "server/openpi/README.md",
+      "source_sha256": "12b3dbdbf16208635b672d207bc4b9f9272738f7686e954e928a15822cb2bfaf",
+      "sha256": "567fc57766bd736664f50126cab8145af4071ca16cc5e238f2b11e369169c3b5",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "assets/pi05_g1_finetune/agibot_real_fold_clothes_2.1/norm_stats.json",
+      "destination": "server/openpi/assets/pi05_g1_finetune/agibot_real_fold_clothes_2.1/norm_stats.json",
+      "source_sha256": "2ff0513fae93f90bbf796f78204f14ac2e97914a03faf12ac432895d0612dec4",
+      "sha256": "2ff0513fae93f90bbf796f78204f14ac2e97914a03faf12ac432895d0612dec4",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "deployment/RTC_THIRD_PARTY_LICENSE.txt",
+      "destination": "server/openpi/deployment/RTC_THIRD_PARTY_LICENSE.txt",
+      "source_sha256": "2314c19f6a70f084aaecded7a427b688e6e93b9016f6837f2a9a91a9e17ddf3f",
+      "sha256": "2314c19f6a70f084aaecded7a427b688e6e93b9016f6837f2a9a91a9e17ddf3f",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "deployment/start_rtc.sh",
+      "destination": "server/openpi/deployment/start_rtc.sh",
+      "source_sha256": "7df2b7140647c0eb40e3c3bee50f8d4ffb4ff07acefd300f524e3e91af27215c",
+      "sha256": "716c4f0c9720e4f7686ace6b8f5647a9ce90542b5eac7aff61f26aae835d4c46",
+      "changed_during_reorganization": true,
+      "change_kind": "content"
+    },
+    {
+      "source": "server",
+      "path": "docs/docker.md",
+      "destination": "server/openpi/docs/docker.md",
+      "source_sha256": "00d29d7465362c39044e2c1301f74ff3602acfb49b369cc13d228cd4c0bec0eb",
+      "sha256": "5f6180bf09f1eed5c3705cf7e08536b7fd5d4f75b3ba0d938b932eff73ce4053",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "docs/docker.zh.md",
+      "destination": "server/openpi/docs/docker.zh.md",
+      "source_sha256": "f1d2018d8300fbae9c00c25e3fed8196181e93bc64a06f51f9b59eb8cffa5692",
+      "sha256": "f1d2018d8300fbae9c00c25e3fed8196181e93bc64a06f51f9b59eb8cffa5692",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "docs/docs_summary.md",
+      "destination": "server/openpi/docs/docs_summary.md",
+      "source_sha256": "e9e92ca015992f35e2eccdbcb3c7d60eb13482b52280bc6be2ac78d430fb1a9e",
+      "sha256": "e9e92ca015992f35e2eccdbcb3c7d60eb13482b52280bc6be2ac78d430fb1a9e",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "docs/g1_adaptation_checklist.md",
+      "destination": "server/openpi/docs/g1_adaptation_checklist.md",
+      "source_sha256": "47b8b6e91d19d9790daa0f68dd0557e00b6820ad738fd4f2499657c0115fdf95",
+      "sha256": "47b8b6e91d19d9790daa0f68dd0557e00b6820ad738fd4f2499657c0115fdf95",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "docs/norm_stats.md",
+      "destination": "server/openpi/docs/norm_stats.md",
+      "source_sha256": "7b736629caac6915946a6c26d62030791b1de77aa1cd17077ff1cedf71c4e2b5",
+      "sha256": "62e4a39ea7fcdae53b4466942db348c3e38fc016b7f7a5273cafed649ebe614b",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "docs/norm_stats.zh.md",
+      "destination": "server/openpi/docs/norm_stats.zh.md",
+      "source_sha256": "c78d8b517998db3afddb26bf8d7c9e6d66c796d6d09368592d56a40ec1c69d7f",
+      "sha256": "c78d8b517998db3afddb26bf8d7c9e6d66c796d6d09368592d56a40ec1c69d7f",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "docs/remote_inference.md",
+      "destination": "server/openpi/docs/remote_inference.md",
+      "source_sha256": "4d4114ad2b39bf87c054e9f17bb5d7b351b34c5041f714e5b15d447b42daf3d9",
+      "sha256": "5b62754525100f958a1bb5bcd0f5ea406c8d120e582c4785742072ccef79e24c",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "docs/remote_inference.zh.md",
+      "destination": "server/openpi/docs/remote_inference.zh.md",
+      "source_sha256": "ba1fe321ec1884412e34f73d9d96cb4bc734c821ad34cb092c5509b74c4154d9",
+      "sha256": "ba1fe321ec1884412e34f73d9d96cb4bc734c821ad34cb092c5509b74c4154d9",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "docs/rtc_deployment.md",
+      "destination": "server/openpi/docs/rtc_deployment.md",
+      "source_sha256": "cab63212e9eb9bee7995e1610d38248b72ddc712b009f870c518dbbbbec340aa",
+      "sha256": "d3fa9a9e0c247dacdeeea13a14c01dc2970e3ee37c82b5a7522dabb1e6baeeb3",
+      "changed_during_reorganization": true,
+      "change_kind": "content"
+    },
+    {
+      "source": "server",
+      "path": "examples/agibot_g1/constants.py",
+      "destination": "server/openpi/examples/agibot_g1/constants.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "examples/agibot_g1/main.py",
+      "destination": "server/openpi/examples/agibot_g1/main.py",
+      "source_sha256": "94aec708a4b5668fa50455fa82bd245d13d6fa97b6eb83b92bc0c04cedaca536",
+      "sha256": "94aec708a4b5668fa50455fa82bd245d13d6fa97b6eb83b92bc0c04cedaca536",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "examples/aloha_real/Dockerfile",
+      "destination": "server/openpi/examples/aloha_real/Dockerfile",
+      "source_sha256": "8d284b5f6f22c13e27a20a0f652f44effbb7ab1854747f310475acb0222a6d67",
+      "sha256": "f863f70ad7c3359872602c7800abd210033f7ff480aee42279887e1a2ceb1ddf",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/aloha_real/README.md",
+      "destination": "server/openpi/examples/aloha_real/README.md",
+      "source_sha256": "ca6b86615f7645d8d7488fb988936a11fa35d61fadcc989a19afe6523336c82e",
+      "sha256": "cd56d8224ee9500837fd83a00ffe7cc1c96008558a4a81fabaf96cdccf9a9a24",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/aloha_real/compose.yml",
+      "destination": "server/openpi/examples/aloha_real/compose.yml",
+      "source_sha256": "49385f5cc17391401264a7d1992c700d667deee385fc89f469723dbaf38304d3",
+      "sha256": "94784b2314487217614f852fcc9bd74bbeb82d910e01faf72588415b7a4ff212",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/aloha_real/constants.py",
+      "destination": "server/openpi/examples/aloha_real/constants.py",
+      "source_sha256": "2804769c73aa20237fdd812550f5186ebc88d7a80a90e9507bc31adf83ec4baa",
+      "sha256": "18cc0fd1ea80a32d970b637ae23aba255a06391d137afdc81664a78f87cb26e7",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/aloha_real/convert_aloha_data_to_lerobot.py",
+      "destination": "server/openpi/examples/aloha_real/convert_aloha_data_to_lerobot.py",
+      "source_sha256": "5c29132b426c4a454fb7710f22a4d47577d3c19ff684511778f07ac3e7e9776d",
+      "sha256": "5380876e2bd9e2b4294ebf818f7d18378090291cf4aae3481f08e0ed254a3284",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/aloha_real/env.py",
+      "destination": "server/openpi/examples/aloha_real/env.py",
+      "source_sha256": "e02e2a4846463c3ed0d216d6caea31949887b04a2f4636fc25f7f18da69d8cef",
+      "sha256": "044494859ba6492cbe256c3f80bd1334734a98dc0181248a576777082934b107",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/aloha_real/main.py",
+      "destination": "server/openpi/examples/aloha_real/main.py",
+      "source_sha256": "d410f015baf1f7ef6cdcdb40c8418e2aad12a56145f5e020a3a2204b7069c1ae",
+      "sha256": "a6195287f804015d928793bcbfab427e21933745ce1d53224671c9e501182d14",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/aloha_real/real_env.py",
+      "destination": "server/openpi/examples/aloha_real/real_env.py",
+      "source_sha256": "bfcf4748884f5de0d913b6c241756f54921e74d8a5b20cc877db690826adf58c",
+      "sha256": "fd88593e5c6d924ed0060d5b03491fbf9db7a093e783eae217ede5c694f35e41",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/aloha_real/requirements.in",
+      "destination": "server/openpi/examples/aloha_real/requirements.in",
+      "source_sha256": "b6244f38c7233b79d677fa6177b83910490411b1d4a4c93b818a1d81444da0a7",
+      "sha256": "9a67592dc156f9d34b19459e8488c646112c5b2d72e6e095dd62bba3fda7bd29",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/aloha_real/requirements.txt",
+      "destination": "server/openpi/examples/aloha_real/requirements.txt",
+      "source_sha256": "033b0d93826a3674c8366cc51c0820a12252cbf551134209993f27884181c872",
+      "sha256": "f1f2f8c5ed31398f0fbecf8c707042747d887fe7e8a4999222a8fecb2e8c7550",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/aloha_real/robot_utils.py",
+      "destination": "server/openpi/examples/aloha_real/robot_utils.py",
+      "source_sha256": "0d5117145827d8a147e5b47dea4a06c5d5eb3bc35ecaa8c21a23363b2339b517",
+      "sha256": "302608dc0f3c4e1c9338eaf3a5299eb91971a533575a3a9ccdd51f1b70e1c232",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/aloha_real/video_display.py",
+      "destination": "server/openpi/examples/aloha_real/video_display.py",
+      "source_sha256": "79cfaa60753560c89486d73f7d52f2f82b3e5c6283484f24ced42620ca752817",
+      "sha256": "d988e685893cbfcacce25aed3cbedf312dd56dce939a720cd436025f6e97b626",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/convert_jax_model_to_pytorch.py",
+      "destination": "server/openpi/examples/convert_jax_model_to_pytorch.py",
+      "source_sha256": "03b3a7cc507a8a159d78e65deb9eaf88fe5d7861824b45a2457913a635d90e3c",
+      "sha256": "62980fda1a1b1a09167d413232a2a9295db8370e52b58a70cfba52ef5d88c440",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/droid/README.md",
+      "destination": "server/openpi/examples/droid/README.md",
+      "source_sha256": "94b8575d1e6111011dd11157de904f82d4ff45e47bab9a8212da62b403463a75",
+      "sha256": "6f64c246a78a5c203b4b032db9b6b6daea33e98d91ecdac1a3da30a9863290d0",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/droid/README_train.md",
+      "destination": "server/openpi/examples/droid/README_train.md",
+      "source_sha256": "7617dfbc239cd9daf1e946cd285a049322bbcb9ccf5fcae1e2c740b5d841f360",
+      "sha256": "8d0a1361941eeff8ac0bfe7d41148c25e87cb6aa254a8de023146688829fec47",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/droid/compute_droid_nonidle_ranges.py",
+      "destination": "server/openpi/examples/droid/compute_droid_nonidle_ranges.py",
+      "source_sha256": "9474e6dc11a744a397a825e751985a878aa4df674b65b564e732e1df0204227e",
+      "sha256": "9746b4a0033fea8c00139a9887830129486cf69ab99fc8a705656b9603cd34fe",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/droid/convert_droid_data_to_lerobot.py",
+      "destination": "server/openpi/examples/droid/convert_droid_data_to_lerobot.py",
+      "source_sha256": "94b33c7e77534037ccad7e70b051e1683fd032e7ed6da6dc25728ba92437710d",
+      "sha256": "35bc003998f1abd857f2f7e7585c57c53d1db14675fdcb5ef32178491d90eec9",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/droid/main.py",
+      "destination": "server/openpi/examples/droid/main.py",
+      "source_sha256": "dea8e222c3fa67e7b8cf17e333040b0a0fafa5e90eb1a98aa578fc0dde1da3b2",
+      "sha256": "4bdbdbdde068ebb30ba90d62bf8c51df156b4baae5c5ac5870c08f7b03d4afc2",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/inference.ipynb",
+      "destination": "server/openpi/examples/inference.ipynb",
+      "source_sha256": "b8fa0db84e2cfaa37d31383e9d8a1ddb33a3de2cd913de9ed325cf1efe6f252b",
+      "sha256": "4aeb5ff961dffe51d885b5d37454ec25900c2197df188d48f0ff27e4f1a7d7f2",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/libero/Dockerfile",
+      "destination": "server/openpi/examples/libero/Dockerfile",
+      "source_sha256": "5ff7531aacbfa52fc50e3096b398ecc8c20e65bb86a40c505a207ab4b58869b8",
+      "sha256": "71bd6fcdfef3a059d417d9781dbdc3cdcbb1ddb2a557a626a2bf589777017173",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/libero/README.md",
+      "destination": "server/openpi/examples/libero/README.md",
+      "source_sha256": "e46feb8151450638baa13e0078cf52ed5ac4167138a193de1e2b9484f0cd44e5",
+      "sha256": "a2caaf5459c4b01837b73aa93a6f69e8cdf10385b39c34eba36afa85f83fafe9",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/libero/compose.yml",
+      "destination": "server/openpi/examples/libero/compose.yml",
+      "source_sha256": "a109aa3602e45cc88894f9fd4a6e1a40e9b33b13a7361b82bcdc8e5baead0403",
+      "sha256": "2a4e444b6fd0c351ad04138c9ca30673e4aea7183ee9fc7dd6a0b01ea3f0c93b",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/libero/convert_libero_data_to_lerobot.py",
+      "destination": "server/openpi/examples/libero/convert_libero_data_to_lerobot.py",
+      "source_sha256": "93074a065112d721a0b3984417e719879547792452f2669224d7c3c4326ed17e",
+      "sha256": "199c309a601f23fa120e0c9ca3d8f7f2dba525924a60e79906fca4c6b9f03602",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/libero/main.py",
+      "destination": "server/openpi/examples/libero/main.py",
+      "source_sha256": "171a68c2b7b3092a79822322de247516c107d83084e163a652e4723e59f4e8f8",
+      "sha256": "d53748c95804ada559e3ca867305b8f755d8651c4c7f4e2723ef80aea55a3943",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/libero/requirements.in",
+      "destination": "server/openpi/examples/libero/requirements.in",
+      "source_sha256": "ca0c67fa9d6ea46b0602a916e5e03e2db7c2d7fa6aa64764f10385a31515f5fb",
+      "sha256": "c663401736ee0fd80aa4e9a36415969c25db6e40283c370fb15544138c49452a",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/libero/requirements.txt",
+      "destination": "server/openpi/examples/libero/requirements.txt",
+      "source_sha256": "243023b28a7642654112627d422f13e5ee949bc7f5e127c28ca72710164c7aa6",
+      "sha256": "821008c9804ec835bccee66ab93c177f47a62a845c010497b5aea06829331727",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/policy_records.ipynb",
+      "destination": "server/openpi/examples/policy_records.ipynb",
+      "source_sha256": "43fd2759286a4204f293754db6380e4b5c744888c91c0b950f3cbd7c53b4ccbd",
+      "sha256": "37dab6297294c4779e6afa82af6e9efb8f979da85e588cdbf44b0b1938e83e62",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/simple_client/Dockerfile",
+      "destination": "server/openpi/examples/simple_client/Dockerfile",
+      "source_sha256": "6d8912a12967ef355aed2b066174b2da54b96d79af7b413d5de292b863db61db",
+      "sha256": "fac5ee3a4b2ab753f3b2f0251e3c1a054b6cbf7edb7934b1e9eb3f5943722bcf",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/simple_client/README.md",
+      "destination": "server/openpi/examples/simple_client/README.md",
+      "source_sha256": "af739ce69c5a9bb417de42601c057556ab78bf287bc69588bc15703c9a778006",
+      "sha256": "226a47bce1b8ad74967552cbe42afb711076b48b18a6cc36555cc5f60627e3a6",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/simple_client/compose.yml",
+      "destination": "server/openpi/examples/simple_client/compose.yml",
+      "source_sha256": "209431422f09be1bb44041f45972bacf5448ef5e3b9281218062c42e58885e51",
+      "sha256": "545424c7c0d6ded3179f16ccb680f88931e82c74c27add2a35aa4b5f83c655fa",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/simple_client/main.py",
+      "destination": "server/openpi/examples/simple_client/main.py",
+      "source_sha256": "a9dc09ce1bf6461c9c73730e4c7539078a7999aee589166e5a61a8f57b2bba30",
+      "sha256": "961f336f767c500981ef4179537e178d888d301791201a33f0e66b44e97438e2",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/simple_client/requirements.in",
+      "destination": "server/openpi/examples/simple_client/requirements.in",
+      "source_sha256": "995ee72aec0a76b36525fddbfd5754260fb833de710bab4530f70e07bf5ece3a",
+      "sha256": "1dd6cf5d680303d89414c7d4dd091bb8b0362a497c779982b3f30e745b018e83",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "examples/simple_client/requirements.txt",
+      "destination": "server/openpi/examples/simple_client/requirements.txt",
+      "source_sha256": "a2a2adcd3535e020fe36fb22498919edb4c9bac1440475f20510c589d7149764",
+      "sha256": "87be8497bb0b14a910f8430c9dd18921d0a75c950610fb4b9de0adbb67cf216b",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "packages/openpi-client/pyproject.toml",
+      "destination": "server/openpi/packages/openpi-client/pyproject.toml",
+      "source_sha256": "584916a820139ddf6e1a67c1356420a90ec5efc32b9617a8e2d6bec5f4feae60",
+      "sha256": "00e8cb0e589d8f473588528f271f780fbe20cb67ba778e3e827d30cc3eb6cc92",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "packages/openpi-client/src/openpi_client/__init__.py",
+      "destination": "server/openpi/packages/openpi-client/src/openpi_client/__init__.py",
+      "source_sha256": "41362a5ea4931c546433d4c48290c5707bf02dbbea1c3aafa9f43d1225e47003",
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "packages/openpi-client/src/openpi_client/action_chunk_broker.py",
+      "destination": "server/openpi/packages/openpi-client/src/openpi_client/action_chunk_broker.py",
+      "source_sha256": "3e4ef21ed695da0258b38c4257f2123a91a43b233115f81433b33c49a97ff942",
+      "sha256": "019b9d69cb26cc681331a2f95dbe60a2cc7b02d6d309c5d15b6457ab39798234",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "packages/openpi-client/src/openpi_client/base_policy.py",
+      "destination": "server/openpi/packages/openpi-client/src/openpi_client/base_policy.py",
+      "source_sha256": "dad08485c9c55b69d270e65ea06459521fd28548fbec392d3163b7bc29623868",
+      "sha256": "88e98e0f06293f3c4767db675061664c4bba12f87242ba1e64377d1b8de8069e",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "packages/openpi-client/src/openpi_client/image_tools.py",
+      "destination": "server/openpi/packages/openpi-client/src/openpi_client/image_tools.py",
+      "source_sha256": "2b806f7366bfeddb4ec7a56c8672bab3bf7cdcd2c1134513eaeeeb343dff9302",
+      "sha256": "d48b4bd7f44e79fe6db8a8e07c9161144fa250be686e1245014a8b47e6171977",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "packages/openpi-client/src/openpi_client/image_tools_test.py",
+      "destination": "server/openpi/packages/openpi-client/src/openpi_client/image_tools_test.py",
+      "source_sha256": "29d5fdfdf2bc5943febe4a94b05adc585e7fff57fbacf01b8fa67946be92fd12",
+      "sha256": "4df4b0ba0b95ba5e47160039c3e837a64d50c802b419a588211dffbaa732589c",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "packages/openpi-client/src/openpi_client/msgpack_numpy.py",
+      "destination": "server/openpi/packages/openpi-client/src/openpi_client/msgpack_numpy.py",
+      "source_sha256": "f046dfc7358f5921bd3b7a5368eeac24b16f5a79567ab48a443719b219e03baf",
+      "sha256": "c04568948fcee52b691e3be4b6cffb759f7e79ad67530fcd5d23095a0d13c057",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "packages/openpi-client/src/openpi_client/msgpack_numpy_test.py",
+      "destination": "server/openpi/packages/openpi-client/src/openpi_client/msgpack_numpy_test.py",
+      "source_sha256": "3388251d6b1b966428d27a07504667862b26c6929d5bc27a516363a96f57d130",
+      "sha256": "2c6dd236720dae716d7bdf842b7d506a165e9563bf9d4376c95289269adcb973",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "packages/openpi-client/src/openpi_client/rtc_action_queue.py",
+      "destination": "server/openpi/packages/openpi-client/src/openpi_client/rtc_action_queue.py",
+      "source_sha256": "5e38d53a1543e1ddfd9ea0c09163aa9a14b330dc4e605c7bf5103a0e2b70ebc3",
+      "sha256": "5e38d53a1543e1ddfd9ea0c09163aa9a14b330dc4e605c7bf5103a0e2b70ebc3",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "packages/openpi-client/src/openpi_client/runtime/agent.py",
+      "destination": "server/openpi/packages/openpi-client/src/openpi_client/runtime/agent.py",
+      "source_sha256": "e40d592c076f1953772e12e22eba20022f1b8ad7113ee95b2c4056ea7b96dccf",
+      "sha256": "b559885afd9645a91b9b6ee12a28513295474f987d11b16610fc0479dbe6de5b",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "packages/openpi-client/src/openpi_client/runtime/agents/policy_agent.py",
+      "destination": "server/openpi/packages/openpi-client/src/openpi_client/runtime/agents/policy_agent.py",
+      "source_sha256": "547644fc647360bd914d936dc2a99948913e4b0547354126752fe6a79ed6d5fa",
+      "sha256": "c4d63952d1954bd4b72a3122223df36794812fea74cf1c7023433b5a90473c1c",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "packages/openpi-client/src/openpi_client/runtime/environment.py",
+      "destination": "server/openpi/packages/openpi-client/src/openpi_client/runtime/environment.py",
+      "source_sha256": "90a904edab736b420a1e1490709cdf9ba757947486fcdd0eeedbb12610034a8a",
+      "sha256": "1c12e5054b3401dec5f1f8b71eef0f625cb60e2b50784dcf19afa32c77107a7e",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "packages/openpi-client/src/openpi_client/runtime/runtime.py",
+      "destination": "server/openpi/packages/openpi-client/src/openpi_client/runtime/runtime.py",
+      "source_sha256": "c8605793c3dd53e6aed204ffa3b0f1701b09fc522771cb33503ff9cab270e33a",
+      "sha256": "3daa242a9ce61ffb210789ef3ba6b1e3cade9de757fcd36af7b174c530345ea8",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "packages/openpi-client/src/openpi_client/runtime/subscriber.py",
+      "destination": "server/openpi/packages/openpi-client/src/openpi_client/runtime/subscriber.py",
+      "source_sha256": "039f7c856bcf6bc2b748c3813e4109c9d7da079c3bc574b5eff77d07b6bdee08",
+      "sha256": "d269a2af8ec4056beb310e5c3c97d4468af01549c7ef80dd905652d8ac64f85b",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "packages/openpi-client/src/openpi_client/websocket_client_policy.py",
+      "destination": "server/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py",
+      "source_sha256": "57007dbb0b51613b7703f5015dccd6aa8ece627f8516d5434a676814cd392c7a",
+      "sha256": "36557cb0b91ccf31cd4fb4b508306850d76ed0feb4028dac5182d0f5a5d88005",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "pyproject.toml",
+      "destination": "server/openpi/pyproject.toml",
+      "source_sha256": "f7e941a20249e0dcd37e7be964d1ff7fa89af21d8a8ebc75cc65e3de0b8f52ec",
+      "sha256": "4b19a1fe04cb7c1dfcb9bf27e7d777ca09ba9600a0e3a2476caaf5b80b24626a",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "scripts/__init__.py",
+      "destination": "server/openpi/scripts/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "scripts/benchmark_rtc.py",
+      "destination": "server/openpi/scripts/benchmark_rtc.py",
+      "source_sha256": "8c942a9a6e4b95fc6825208e13c8110c6cefe85431bcec97571bf791931c6deb",
+      "sha256": "c13c2de9857c222b1ed1a512438c9acbead7e98efbe80b9fdb94e0c30272a446",
+      "changed_during_reorganization": true,
+      "change_kind": "content"
+    },
+    {
+      "source": "server",
+      "path": "scripts/compute_norm_stats.py",
+      "destination": "server/openpi/scripts/compute_norm_stats.py",
+      "source_sha256": "032bd3195242116edd0ad468b3c10e75f1f38f211807236f47856caf62774466",
+      "sha256": "cbb4887bca8629bc943e9d9f222d29ac8abe678f1357890db067edee0fbdfdd7",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "scripts/docker/compose.yml",
+      "destination": "server/openpi/scripts/docker/compose.yml",
+      "source_sha256": "a7f4fcf98d312f2fc2747240105ee63349a472175775a71247b28b62dcd52dfc",
+      "sha256": "43034f5049bfc4653cb6fbb99afc50a0478f333d158c37011102a7fbf465c550",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "scripts/docker/install_docker_ubuntu22.sh",
+      "destination": "server/openpi/scripts/docker/install_docker_ubuntu22.sh",
+      "source_sha256": "985e8410a9d317fab03bbba5666e3a927597bea5fdb975f20e7c3eeca2c7d78b",
+      "sha256": "1e143d1165e3cff184a5161d6c1b0c7634a507068167bde6aa7397c3926f7f38",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "scripts/docker/install_nvidia_container_toolkit.sh",
+      "destination": "server/openpi/scripts/docker/install_nvidia_container_toolkit.sh",
+      "source_sha256": "a5e60a8d77e699e12cbb0859c7485383d160aacc0f9eee36644e0a76e89ee367",
+      "sha256": "28ab1c1e3d572402e8f4aa11a48cc8f9df876360f8a58f8b10df723cda93531d",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "scripts/docker/serve_policy.Dockerfile",
+      "destination": "server/openpi/scripts/docker/serve_policy.Dockerfile",
+      "source_sha256": "90c9c71b09ce7e91f29213a76bd0a6523606ba54ee7edc377e1b707d4c84ca0c",
+      "sha256": "a6dd575b19625e5bec8aca459f3eacd7568e1329fd8928d7c74b2e62b700de0e",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "scripts/replay_rtc.py",
+      "destination": "server/openpi/scripts/replay_rtc.py",
+      "source_sha256": "7440490c67cd9036fac55eaa9cb89a18bd46cdd1d2bf3283a080ba8369891507",
+      "sha256": "7440490c67cd9036fac55eaa9cb89a18bd46cdd1d2bf3283a080ba8369891507",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "scripts/serve_policy.py",
+      "destination": "server/openpi/scripts/serve_policy.py",
+      "source_sha256": "0ba76a51dc7e51e869fda5bacfc4f09b8c23e4b7d2651c12065677935e3f51dc",
+      "sha256": "c85fc98f0beb0dd26a760516750af1fdf251ac0b5af24d6df3c1ba134a45e1a6",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "scripts/serve_rtc.py",
+      "destination": "server/openpi/scripts/serve_rtc.py",
+      "source_sha256": "8cbf269b102e4c309c24a47e11a4661669d63bfdef747b751d3cee492d7c8ef4",
+      "sha256": "0fe1e8dff8bbdbc48638d0159fdeb302622a9033dbfc45a7b16d25702576f03b",
+      "changed_during_reorganization": true,
+      "change_kind": "content"
+    },
+    {
+      "source": "server",
+      "path": "scripts/train.py",
+      "destination": "server/openpi/scripts/train.py",
+      "source_sha256": "a550a26b9171b96cc7324f0febd5e48ca0b650693d3066d4e3afcb0687df2005",
+      "sha256": "22f98a06aaa6e68e0f725d727ab95398238d1cae8a46bb94e829f330758a9baf",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "scripts/train_pytorch.py",
+      "destination": "server/openpi/scripts/train_pytorch.py",
+      "source_sha256": "637d562c50868dc5529d09716f82ec2a1ae4f9bf0b86ebbee9ac678fd79aaf36",
+      "sha256": "baa66f1642e955d5cc2ec3f54d9495035df61d71b028b98ab4ebb1e240548311",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "scripts/train_test.py",
+      "destination": "server/openpi/scripts/train_test.py",
+      "source_sha256": "46d8241746a71d41ea316d2e830d2d0de6272fa4ee4719aeb56edff8ea58adba",
+      "sha256": "48398805809df6a07ce613d9060ab7e4e64fab60d573f79d16a7ba59a48219f6",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/__init__.py",
+      "destination": "server/openpi/src/openpi/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/conftest.py",
+      "destination": "server/openpi/src/openpi/conftest.py",
+      "source_sha256": "626672e385fb276396c119e2220421065c58f8ec602401e8bf2ae509f9fffaf3",
+      "sha256": "626672e385fb276396c119e2220421065c58f8ec602401e8bf2ae509f9fffaf3",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models/__init__.py",
+      "destination": "server/openpi/src/openpi/models/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models/gemma.py",
+      "destination": "server/openpi/src/openpi/models/gemma.py",
+      "source_sha256": "7e42ada4ae7e9995f0ef3e33a0c224758323c2015e2d9d72ec15726a8a001d2a",
+      "sha256": "7e42ada4ae7e9995f0ef3e33a0c224758323c2015e2d9d72ec15726a8a001d2a",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models/gemma_fast.py",
+      "destination": "server/openpi/src/openpi/models/gemma_fast.py",
+      "source_sha256": "563c6e1ffd8afa31c406bcb8894a605e87df88f6c075d398d97a57af6bc3aefa",
+      "sha256": "563c6e1ffd8afa31c406bcb8894a605e87df88f6c075d398d97a57af6bc3aefa",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models/lora.py",
+      "destination": "server/openpi/src/openpi/models/lora.py",
+      "source_sha256": "ced28716950c34d84a1a6d0b03b1d9550000732721df884818080b6e78cb3289",
+      "sha256": "ced28716950c34d84a1a6d0b03b1d9550000732721df884818080b6e78cb3289",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models/lora_test.py",
+      "destination": "server/openpi/src/openpi/models/lora_test.py",
+      "source_sha256": "a0f10525de7773310402b3ffa636e88ffff7035f3179b140aacc6809c122f085",
+      "sha256": "a0f10525de7773310402b3ffa636e88ffff7035f3179b140aacc6809c122f085",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models/model.py",
+      "destination": "server/openpi/src/openpi/models/model.py",
+      "source_sha256": "0d74bc1d8f4623ac3d8e543710b8bf75f9b95e588a3ebf6127c659e001385cff",
+      "sha256": "0d74bc1d8f4623ac3d8e543710b8bf75f9b95e588a3ebf6127c659e001385cff",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models/model_test.py",
+      "destination": "server/openpi/src/openpi/models/model_test.py",
+      "source_sha256": "f8e71f195045d4e3ef1ddfafb2337fa52e5aa2f89bce1fde62f5cbfb67121f21",
+      "sha256": "f8e71f195045d4e3ef1ddfafb2337fa52e5aa2f89bce1fde62f5cbfb67121f21",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models/pi0.py",
+      "destination": "server/openpi/src/openpi/models/pi0.py",
+      "source_sha256": "0ed1c8e1436cf7775b3ad99f5819a0888ca4a2084c12a82822d7c803867b84a1",
+      "sha256": "0ed1c8e1436cf7775b3ad99f5819a0888ca4a2084c12a82822d7c803867b84a1",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models/pi0_config.py",
+      "destination": "server/openpi/src/openpi/models/pi0_config.py",
+      "source_sha256": "73351149a20452d3d8a719d809cd2e241711ae2ca629c3a6ffa5181f794460bf",
+      "sha256": "73351149a20452d3d8a719d809cd2e241711ae2ca629c3a6ffa5181f794460bf",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models/pi0_fast.py",
+      "destination": "server/openpi/src/openpi/models/pi0_fast.py",
+      "source_sha256": "627332a555046f2744ef144c45f8bd3361a9820cf68854a4528d0fdbba7e9aa3",
+      "sha256": "627332a555046f2744ef144c45f8bd3361a9820cf68854a4528d0fdbba7e9aa3",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models/pi0_test.py",
+      "destination": "server/openpi/src/openpi/models/pi0_test.py",
+      "source_sha256": "5082873014a7fc45fb8414f517909e1c24cdafea980a1fb612e0aea6058ed0fe",
+      "sha256": "5082873014a7fc45fb8414f517909e1c24cdafea980a1fb612e0aea6058ed0fe",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models/rtc.py",
+      "destination": "server/openpi/src/openpi/models/rtc.py",
+      "source_sha256": "99204fabf6334c9f7eb00a72b3b86283a834b6f716d776aa3b29bcb14506dc38",
+      "sha256": "99204fabf6334c9f7eb00a72b3b86283a834b6f716d776aa3b29bcb14506dc38",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models/siglip.py",
+      "destination": "server/openpi/src/openpi/models/siglip.py",
+      "source_sha256": "14b4df0be280d5769fb0dc31a40cde27525dbb1980cc998c28475d62fa3cad32",
+      "sha256": "14b4df0be280d5769fb0dc31a40cde27525dbb1980cc998c28475d62fa3cad32",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models/tokenizer.py",
+      "destination": "server/openpi/src/openpi/models/tokenizer.py",
+      "source_sha256": "965be8b3c393a6811875bbc32da9e01a5d01cc2f87802de801cf7293e049748c",
+      "sha256": "965be8b3c393a6811875bbc32da9e01a5d01cc2f87802de801cf7293e049748c",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models/tokenizer_test.py",
+      "destination": "server/openpi/src/openpi/models/tokenizer_test.py",
+      "source_sha256": "5abd179ce883420e39d4d18b33d0123290af752da243003aa48a3bc06dbb9517",
+      "sha256": "5abd179ce883420e39d4d18b33d0123290af752da243003aa48a3bc06dbb9517",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models/utils/fsq_tokenizer.py",
+      "destination": "server/openpi/src/openpi/models/utils/fsq_tokenizer.py",
+      "source_sha256": "88866638ee4775f46a222561a957bd35e20600fe38c5888b587016ad77b1065f",
+      "sha256": "88866638ee4775f46a222561a957bd35e20600fe38c5888b587016ad77b1065f",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models/vit.py",
+      "destination": "server/openpi/src/openpi/models/vit.py",
+      "source_sha256": "d285d057636c3cba2d1fd3b37693b18075ad4b9c3b47bbde807c34c6c376ac93",
+      "sha256": "d285d057636c3cba2d1fd3b37693b18075ad4b9c3b47bbde807c34c6c376ac93",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models_pytorch/gemma_pytorch.py",
+      "destination": "server/openpi/src/openpi/models_pytorch/gemma_pytorch.py",
+      "source_sha256": "08fd8d750519f0fb44fc5173311e50a30f4c8f32c02e51244b4f8e47b32cd52f",
+      "sha256": "08fd8d750519f0fb44fc5173311e50a30f4c8f32c02e51244b4f8e47b32cd52f",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models_pytorch/pi0_pytorch.py",
+      "destination": "server/openpi/src/openpi/models_pytorch/pi0_pytorch.py",
+      "source_sha256": "dcd7b6f508808ce4b7170a1720a4c62c6da04edae3652d16c94a469dca924e16",
+      "sha256": "dcd7b6f508808ce4b7170a1720a4c62c6da04edae3652d16c94a469dca924e16",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models_pytorch/preprocessing_pytorch.py",
+      "destination": "server/openpi/src/openpi/models_pytorch/preprocessing_pytorch.py",
+      "source_sha256": "6a44e91be2d7a724c6140d2cc98ed0a631b8d38bbb29f63b380a0a19f903bbf6",
+      "sha256": "6a44e91be2d7a724c6140d2cc98ed0a631b8d38bbb29f63b380a0a19f903bbf6",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models_pytorch/transformers_replace/models/gemma/configuration_gemma.py",
+      "destination": "server/openpi/src/openpi/models_pytorch/transformers_replace/models/gemma/configuration_gemma.py",
+      "source_sha256": "26fd0d0f52730ab32b6f337eb73ae9a26cb71ae0915bc49eced1d0e2ed8d0ec6",
+      "sha256": "26fd0d0f52730ab32b6f337eb73ae9a26cb71ae0915bc49eced1d0e2ed8d0ec6",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models_pytorch/transformers_replace/models/gemma/modeling_gemma.py",
+      "destination": "server/openpi/src/openpi/models_pytorch/transformers_replace/models/gemma/modeling_gemma.py",
+      "source_sha256": "17eeb54e277939e58cd6f8a92719a275e36baf0c9f463b2754227d42f87aedde",
+      "sha256": "17eeb54e277939e58cd6f8a92719a275e36baf0c9f463b2754227d42f87aedde",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models_pytorch/transformers_replace/models/paligemma/modeling_paligemma.py",
+      "destination": "server/openpi/src/openpi/models_pytorch/transformers_replace/models/paligemma/modeling_paligemma.py",
+      "source_sha256": "c945d330b829264f927f3ee5339f977238631772de07a28e855e265bb85fd53c",
+      "sha256": "c945d330b829264f927f3ee5339f977238631772de07a28e855e265bb85fd53c",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models_pytorch/transformers_replace/models/siglip/check.py",
+      "destination": "server/openpi/src/openpi/models_pytorch/transformers_replace/models/siglip/check.py",
+      "source_sha256": "466e8eb7887ac5ccc98118a3169298d6ab65a284d834bae74751e3854dbc4245",
+      "sha256": "466e8eb7887ac5ccc98118a3169298d6ab65a284d834bae74751e3854dbc4245",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/models_pytorch/transformers_replace/models/siglip/modeling_siglip.py",
+      "destination": "server/openpi/src/openpi/models_pytorch/transformers_replace/models/siglip/modeling_siglip.py",
+      "source_sha256": "ef2e99500f263fdd78db9d4d9a255e29d844eb92f53c25ad640f8056700ef84b",
+      "sha256": "ef2e99500f263fdd78db9d4d9a255e29d844eb92f53c25ad640f8056700ef84b",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/policies/aloha_policy.py",
+      "destination": "server/openpi/src/openpi/policies/aloha_policy.py",
+      "source_sha256": "50d7ad972d80142ecb0f03b0780dacfd3af212946f4c9aac31a204b02db4543d",
+      "sha256": "50d7ad972d80142ecb0f03b0780dacfd3af212946f4c9aac31a204b02db4543d",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/policies/cobot_magic_policy.py",
+      "destination": "server/openpi/src/openpi/policies/cobot_magic_policy.py",
+      "source_sha256": "af1e24db33edb1ca4a36df62112bbc377de309397270118c627a30afb2cf49a7",
+      "sha256": "af1e24db33edb1ca4a36df62112bbc377de309397270118c627a30afb2cf49a7",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/policies/droid_policy.py",
+      "destination": "server/openpi/src/openpi/policies/droid_policy.py",
+      "source_sha256": "7d0893555964d485e231f70084125084a99495705ddd74b29461229d524fff26",
+      "sha256": "7d0893555964d485e231f70084125084a99495705ddd74b29461229d524fff26",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/policies/g1_policy.py",
+      "destination": "server/openpi/src/openpi/policies/g1_policy.py",
+      "source_sha256": "b7ef51f1c7d8fcb3b79d71ea6d5eaffe3a46f6c5af9ea56b67ea2ff039547421",
+      "sha256": "b7ef51f1c7d8fcb3b79d71ea6d5eaffe3a46f6c5af9ea56b67ea2ff039547421",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/policies/libero_policy.py",
+      "destination": "server/openpi/src/openpi/policies/libero_policy.py",
+      "source_sha256": "ad01e5be74516d9ec9aeb1f76294d5c9f7f7179a60f1f7fbbb35e7646534f81a",
+      "sha256": "ad01e5be74516d9ec9aeb1f76294d5c9f7f7179a60f1f7fbbb35e7646534f81a",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/policies/policy.py",
+      "destination": "server/openpi/src/openpi/policies/policy.py",
+      "source_sha256": "7c3e857e43a888010efbe4f489d5b3df66250e09934bda87cf4b655f659abcbe",
+      "sha256": "7c3e857e43a888010efbe4f489d5b3df66250e09934bda87cf4b655f659abcbe",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/policies/policy_config.py",
+      "destination": "server/openpi/src/openpi/policies/policy_config.py",
+      "source_sha256": "aaf42ab04a33b6c91d2447926211646c33ebd8ebfa427f026d7b6c4f7c45ec52",
+      "sha256": "aaf42ab04a33b6c91d2447926211646c33ebd8ebfa427f026d7b6c4f7c45ec52",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/policies/policy_test.py",
+      "destination": "server/openpi/src/openpi/policies/policy_test.py",
+      "source_sha256": "9dbb20963600367a7e7abfc97d1e326916777c57a87b39b1bc4070ba64676683",
+      "sha256": "9dbb20963600367a7e7abfc97d1e326916777c57a87b39b1bc4070ba64676683",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/policies/rtc_policy.py",
+      "destination": "server/openpi/src/openpi/policies/rtc_policy.py",
+      "source_sha256": "5aec18faa95beca7dca9b6864ab25af690a72cc99b50823865a080698759e25e",
+      "sha256": "5aec18faa95beca7dca9b6864ab25af690a72cc99b50823865a080698759e25e",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/py.typed",
+      "destination": "server/openpi/src/openpi/py.typed",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/serving/websocket_policy_server.py",
+      "destination": "server/openpi/src/openpi/serving/websocket_policy_server.py",
+      "source_sha256": "1370d345e6c3c5b8f15573050e485e60a5b423d1df33e24b237805e6b442b026",
+      "sha256": "1370d345e6c3c5b8f15573050e485e60a5b423d1df33e24b237805e6b442b026",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/shared/__init__.py",
+      "destination": "server/openpi/src/openpi/shared/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/shared/array_typing.py",
+      "destination": "server/openpi/src/openpi/shared/array_typing.py",
+      "source_sha256": "6524945566eab3eb97b75a6280ba4724617b4d028c55f05172b283c3de68a026",
+      "sha256": "6524945566eab3eb97b75a6280ba4724617b4d028c55f05172b283c3de68a026",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/shared/download.py",
+      "destination": "server/openpi/src/openpi/shared/download.py",
+      "source_sha256": "a12054a6ddaab4efa833c4ff49a1aba00c63759e4e88d6be21c1e0b3307fd9b2",
+      "sha256": "a12054a6ddaab4efa833c4ff49a1aba00c63759e4e88d6be21c1e0b3307fd9b2",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/shared/download_test.py",
+      "destination": "server/openpi/src/openpi/shared/download_test.py",
+      "source_sha256": "234ee70ab2501a1421f6c44cbd83c1e16747597023319ae1446bed9d44f17072",
+      "sha256": "234ee70ab2501a1421f6c44cbd83c1e16747597023319ae1446bed9d44f17072",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/shared/image_tools.py",
+      "destination": "server/openpi/src/openpi/shared/image_tools.py",
+      "source_sha256": "0f8fcb355288119e56acb56d550c1cc1f3a9edddceb0dc5b319f955943ef7767",
+      "sha256": "0f8fcb355288119e56acb56d550c1cc1f3a9edddceb0dc5b319f955943ef7767",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/shared/image_tools_test.py",
+      "destination": "server/openpi/src/openpi/shared/image_tools_test.py",
+      "source_sha256": "842374579dc9f4c2907da5e8bb555efe5a3f4902b659720c8e90115863dd59fe",
+      "sha256": "842374579dc9f4c2907da5e8bb555efe5a3f4902b659720c8e90115863dd59fe",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/shared/nnx_utils.py",
+      "destination": "server/openpi/src/openpi/shared/nnx_utils.py",
+      "source_sha256": "4da7111ba3011c4d1c381c9ed17257771df6a50ed89182647c3fb6f79208005e",
+      "sha256": "4da7111ba3011c4d1c381c9ed17257771df6a50ed89182647c3fb6f79208005e",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/shared/normalize.py",
+      "destination": "server/openpi/src/openpi/shared/normalize.py",
+      "source_sha256": "6c2cea4946fb07e51801530400d2b2fd94730e195cd290d6b6960114eca9739d",
+      "sha256": "6c2cea4946fb07e51801530400d2b2fd94730e195cd290d6b6960114eca9739d",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/shared/normalize_test.py",
+      "destination": "server/openpi/src/openpi/shared/normalize_test.py",
+      "source_sha256": "fda27a21cf37f337b12bcab71229407c2a349c5965c33f278bdc468ed03f58af",
+      "sha256": "fda27a21cf37f337b12bcab71229407c2a349c5965c33f278bdc468ed03f58af",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/training/checkpoints.py",
+      "destination": "server/openpi/src/openpi/training/checkpoints.py",
+      "source_sha256": "36bf8c09155cd200008978a3f3078e36e0f2e328163c9c619480d6d696c5d03c",
+      "sha256": "36bf8c09155cd200008978a3f3078e36e0f2e328163c9c619480d6d696c5d03c",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/training/config.py",
+      "destination": "server/openpi/src/openpi/training/config.py",
+      "source_sha256": "fac80aafa11efcb8de645ce2aeb4906cad07d866a67e96a38d466c69d695b78e",
+      "sha256": "fac80aafa11efcb8de645ce2aeb4906cad07d866a67e96a38d466c69d695b78e",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/training/data_loader.py",
+      "destination": "server/openpi/src/openpi/training/data_loader.py",
+      "source_sha256": "33235f2ca42dc695b8362735031d73f6a195cd907dc454ae7a5fc70821a1f0ef",
+      "sha256": "33235f2ca42dc695b8362735031d73f6a195cd907dc454ae7a5fc70821a1f0ef",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/training/data_loader_test.py",
+      "destination": "server/openpi/src/openpi/training/data_loader_test.py",
+      "source_sha256": "a0cf1bc293e8b0eb9bc5516bc05d30d9940da06c94fcfa1addca7267f8358815",
+      "sha256": "a0cf1bc293e8b0eb9bc5516bc05d30d9940da06c94fcfa1addca7267f8358815",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/training/droid_rlds_dataset.py",
+      "destination": "server/openpi/src/openpi/training/droid_rlds_dataset.py",
+      "source_sha256": "1d3a057a040240218234d7dbc6680ee4fe8256f2058531a0f9fefd3f7ee995a4",
+      "sha256": "1d3a057a040240218234d7dbc6680ee4fe8256f2058531a0f9fefd3f7ee995a4",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/training/misc/polaris_config.py",
+      "destination": "server/openpi/src/openpi/training/misc/polaris_config.py",
+      "source_sha256": "c2ab92efb5e0d675118ad812113fd1c3cb3a62cdab5d79066014266e82df12d8",
+      "sha256": "c2ab92efb5e0d675118ad812113fd1c3cb3a62cdab5d79066014266e82df12d8",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/training/misc/roboarena_config.py",
+      "destination": "server/openpi/src/openpi/training/misc/roboarena_config.py",
+      "source_sha256": "914acdd74ccf90e6779c13a5093140595c7e4f687e9e0b167439446a81d74c01",
+      "sha256": "914acdd74ccf90e6779c13a5093140595c7e4f687e9e0b167439446a81d74c01",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/training/optimizer.py",
+      "destination": "server/openpi/src/openpi/training/optimizer.py",
+      "source_sha256": "cfb5d6f6aec61fbe961287b4015c652260628a0ed4682a0dbdc271b8e65431fa",
+      "sha256": "cfb5d6f6aec61fbe961287b4015c652260628a0ed4682a0dbdc271b8e65431fa",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/training/sharding.py",
+      "destination": "server/openpi/src/openpi/training/sharding.py",
+      "source_sha256": "c67c4112a126ab097571c8a882fd1ee3f106b15b6e608e7205ac7f29b44ca985",
+      "sha256": "c67c4112a126ab097571c8a882fd1ee3f106b15b6e608e7205ac7f29b44ca985",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/training/utils.py",
+      "destination": "server/openpi/src/openpi/training/utils.py",
+      "source_sha256": "b684e674343f86ef5e976f279a586d3fe2f885e901f396ac899ed136abc7eca6",
+      "sha256": "b684e674343f86ef5e976f279a586d3fe2f885e901f396ac899ed136abc7eca6",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/training/weight_loaders.py",
+      "destination": "server/openpi/src/openpi/training/weight_loaders.py",
+      "source_sha256": "a54ac3222f81f8c6233241bc16b6f369c9416cdaa83f7058f96f7ddcfde1a3b4",
+      "sha256": "a54ac3222f81f8c6233241bc16b6f369c9416cdaa83f7058f96f7ddcfde1a3b4",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/transforms.py",
+      "destination": "server/openpi/src/openpi/transforms.py",
+      "source_sha256": "a1b94e9e72849a18834778f229c6bb389a495eb7fbe0aa800edea728b9424ff4",
+      "sha256": "a1b94e9e72849a18834778f229c6bb389a495eb7fbe0aa800edea728b9424ff4",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/transforms_test.py",
+      "destination": "server/openpi/src/openpi/transforms_test.py",
+      "source_sha256": "d76f3ee8c5d7dc1c6fb6cb3b36b45ef30dd1de1ab5bc054bcb03deb79dcc06a8",
+      "sha256": "d76f3ee8c5d7dc1c6fb6cb3b36b45ef30dd1de1ab5bc054bcb03deb79dcc06a8",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "tests/test_rtc_host.py",
+      "destination": "server/openpi/tests/test_rtc_host.py",
+      "source_sha256": "b1a11835ce94a50a04c246816cc57277fa05583ab8bdcc3c7393f4e50f807851",
+      "sha256": "b1a11835ce94a50a04c246816cc57277fa05583ab8bdcc3c7393f4e50f807851",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "tests/test_rtc_jax.py",
+      "destination": "server/openpi/tests/test_rtc_jax.py",
+      "source_sha256": "fa7d37703750175fd3eb5169eb22ad5582af9691e51c5123495e9cc909fabc87",
+      "sha256": "fa7d37703750175fd3eb5169eb22ad5582af9691e51c5123495e9cc909fabc87",
+      "changed_during_reorganization": false,
+      "change_kind": "none"
+    },
+    {
+      "source": "server",
+      "path": "uv.lock",
+      "destination": "server/openpi/uv.lock",
+      "source_sha256": "0350deb1cd5133cdb3ab4f5eb3d502886671452aee2806507563e1f2fc229f25",
+      "sha256": "887dd51532f8074848279d1009ad985f8d98fa176f4a63354df0d39c4f89a3ee",
+      "changed_during_reorganization": true,
+      "change_kind": "line_endings_only"
+    }
+  ],
+  "omitted_source_files": [
+    {
+      "source": "robot",
+      "path": ".gitattributes"
+    },
+    {
+      "source": "robot",
+      "path": ".gitignore"
+    },
+    {
+      "source": "robot",
+      "path": "DIAGNOSTICS_README.md"
+    },
+    {
+      "source": "robot",
+      "path": "LOCAL_VERSIONS.md"
+    },
+    {
+      "source": "robot",
+      "path": "OPERATION_GUIDE.md"
+    },
+    {
+      "source": "robot",
+      "path": "RTC_README.md"
+    },
+    {
+      "source": "robot",
+      "path": "RTC_V2_README.md"
+    },
+    {
+      "source": "robot",
+      "path": "RTC_V3_README.md"
+    },
+    {
+      "source": "robot",
+      "path": "pi0.5_control.sh"
+    },
+    {
+      "source": "robot",
+      "path": "pi0.5_rtc_control.sh"
+    },
+    {
+      "source": "robot",
+      "path": "pi0.5_rtc_control_v2.sh"
+    },
+    {
+      "source": "robot",
+      "path": "pi0.5_rtc_control_v3.sh"
+    },
+    {
+      "source": "server",
+      "path": ".github/CODEOWNERS"
+    },
+    {
+      "source": "server",
+      "path": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "source": "server",
+      "path": ".github/workflows/test.yml"
+    },
+    {
+      "source": "server",
+      "path": ".gitignore"
+    },
+    {
+      "source": "server",
+      "path": ".vscode/settings.json"
+    },
+    {
+      "source": "server",
+      "path": "deployment/legacy/serve_cobot_magic.py"
+    },
+    {
+      "source": "server",
+      "path": "deployment/legacy/start_b200_pi_server.sh"
+    },
+    {
+      "source": "server",
+      "path": "deployment/legacy/tailscaled-watchdog.sh"
+    },
+    {
+      "source": "server",
+      "path": "deployment/server_baseline.json"
+    },
+    {
+      "source": "server",
+      "path": "scripts/validate_baseline.py"
+    },
+    {
+      "source": "server",
+      "path": "scripts/validate_service.py"
+    },
+    {
+      "source": "server",
+      "path": "src/openpi/training/config_old.py"
+    }
+  ],
+  "new_files_note": "Root documentation, launchers, environment examples and repository tests added during reorganization"
+}
